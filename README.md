@@ -56,7 +56,7 @@ The one Security miss blocks a legitimate follow-up about one person's phone num
 | Faithfulness | **0.94** | Claims in the answer are supported by the retrieved text, the main hallucination measure |
 | Context recall | **0.90** | Retrieved text contains what the reference answer needs |
 | Factual correctness | **0.68** | Claim-by-claim agreement with a reference answer written by a person |
-| Answer rate | **90%** | 18 of 20 questions answered |
+| Answer rate | **90%** | 180 of 200 questions answered |
 
 Twenty questions written from two public SDAIA publications and the demo documents, judged by `qwen2.5:14b`, a different and larger model than the one that answers. These scores were measured before the reranker was added. The two unanswered questions ask for lists stored inside PDF tables.
 
@@ -288,7 +288,7 @@ Problems found while building and testing the system, and how they were fixed:
 - **Tables:** lists inside PDF tables are extracted poorly; both unanswered RAGAS questions come from this.
 - **Scanned PDFs:** there is no OCR step, so image-only pages are skipped.
 - **Over-strict follow-ups:** the Security agent blocks one legitimate follow-up about a single person (12 of 13).
-- **Evaluation size:** RAGAS ran on 20 questions before the reranker was added; a reference set of 100 or more questions would give tighter numbers, and the similarity threshold should be re-measured on a larger corpus.
+- **Evaluation size:** RAGAS ran on 200 questions before the reranker was added; a reference set of 100 or more questions would give tighter numbers, and the similarity threshold should be re-measured on a larger corpus.
 
 ## Project structure
 
