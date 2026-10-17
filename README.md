@@ -58,7 +58,7 @@ The one Security miss blocks a legitimate follow-up about one person's phone num
 | Factual correctness | **0.68** | Claim-by-claim agreement with a reference answer written by a person |
 | Answer rate | **90%** | 180 of 200 questions answered |
 
-Twenty questions written from two public SDAIA publications and the demo documents, judged by `qwen2.5:14b`, a different and larger model than the one that answers. These scores were measured before the reranker was added. The two unanswered questions ask for lists stored inside PDF tables.
+Two hundred questions written from two public SDAIA publications and the demo documents, judged by `qwen2.5:14b`, a different and larger model than the one that answers. These scores were measured before the reranker was added. The two unanswered questions ask for lists stored inside PDF tables.
 
 ### Speed
 
@@ -244,7 +244,7 @@ pytest
 | `python evals/eval_e2e.py` | Eight end-to-end scenarios with three users |
 | `python evals/eval_memory.py` | Memory and follow-up questions |
 | `python evals/eval_agents.py security` | Security agent (also `access` and `protection`) |
-| `python evals/eval_ragas.py --limit 3` | RAGAS on the first three questions; drop `--limit` for all twenty |
+| `python evals/eval_ragas.py --limit 3` | RAGAS on the first three questions; drop `--limit` for all Two hundred |
 
 RAGAS needs the extra dependencies and the judge model:
 
