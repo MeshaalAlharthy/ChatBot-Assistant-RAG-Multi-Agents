@@ -1,0 +1,82 @@
+[server]
+enableStaticServing = true
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = "none"
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"
+primaryColor = "#74C69D"
+backgroundColor = "#0E1C30"
+secondaryBackgroundColor = "#15273F"
+textColor = "#E6ECF3"
+linkColor = "#74C69D"
+borderColor = "#26405F"
+showWidgetBorder = true
+showSidebarBorder = false
+baseRadius = "6px"
+buttonRadius = "6px"
+baseFontSize = 16
+font = "IBM Plex Sans Arabic, sans-serif"
+headingFont = "Noto Kufi Arabic, IBM Plex Sans Arabic, sans-serif"
+codeBackgroundColor = "#0A1526"
+
+[theme.sidebar]
+backgroundColor = "#0A1526"
+secondaryBackgroundColor = "#13233A"
+textColor = "#E6ECF3"
+primaryColor = "#74C69D"
+borderColor = "#26405F"
+codeBackgroundColor = "#13233A"
+
+[[theme.fontFaces]]
+family = "IBM Plex Sans Arabic"
+url = "app/static/fonts/ibm-plex-sans-arabic-arabic-400-normal.woff2"
+weight = 400
+unicodeRange = "U+0600-06FF, U+0750-077F, U+0870-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FEFC"
+
+[[theme.fontFaces]]
+family = "IBM Plex Sans Arabic"
+url = "app/static/fonts/ibm-plex-sans-arabic-latin-400-normal.woff2"
+weight = 400
+unicodeRange = "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+FEFF, U+FFFD"
+
+[[theme.fontFaces]]
+family = "IBM Plex Sans Arabic"
+url = "app/static/fonts/ibm-plex-sans-arabic-arabic-500-normal.woff2"
+weight = 500
+unicodeRange = "U+0600-06FF, U+0750-077F, U+0870-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FEFC"
+
+[[theme.fontFaces]]
+family = "IBM Plex Sans Arabic"
+url = "app/static/fonts/ibm-plex-sans-arabic-latin-500-normal.woff2"
+weight = 500
+unicodeRange = "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+FEFF, U+FFFD"
+
+[[theme.fontFaces]]
+family = "IBM Plex Sans Arabic"
+url = "app/static/fonts/ibm-plex-sans-arabic-arabic-700-normal.woff2"
+weight = 700
+unicodeRange = "U+0600-06FF, U+0750-077F, U+0870-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FEFC"
+
+[[theme.fontFaces]]
+family = "IBM Plex Sans Arabic"
+url = "app/static/fonts/ibm-plex-sans-arabic-latin-700-normal.woff2"
+weight = 700
+unicodeRange = "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+FEFF, U+FFFD"
+
+[[theme.fontFaces]]
+family = "Noto Kufi Arabic"
+url = "app/static/fonts/noto-kufi-arabic-arabic-700-normal.woff2"
+weight = 700
+unicodeRange = "U+0600-06FF, U+0750-077F, U+0870-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FEFC"
+
+[[theme.fontFaces]]
+family = "Noto Kufi Arabic"
+url = "app/static/fonts/noto-kufi-arabic-latin-700-normal.woff2"
+weight = 700
+unicodeRange = "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+FEFF, U+FFFD"
