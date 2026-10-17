@@ -3,7 +3,7 @@
 **A secure, fully local assistant that answers employees' questions from internal Arabic documents.**
 Three LLM agents check every question and every answer, access rules are enforced inside the vector database, and no data leaves the machine.
 
-المساعد الرقمي لمكتب إدارة البيانات · [اقرأ هذا الملف بالعربية](README.ar.md)
+المساعد الرقمي لمكتب إدارة البيانات
 
 [![tests](https://github.com/MeshaalAlharthy/ChatBot-Assistant-RAG-Multi-Agents/actions/workflows/tests.yml/badge.svg)](https://github.com/MeshaalAlharthy/ChatBot-Assistant-RAG-Multi-Agents/actions/workflows/tests.yml)
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB)
